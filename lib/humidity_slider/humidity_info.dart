@@ -28,6 +28,7 @@ class HumidityInfo extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.bold,
+                    color: BrandColors.mainText,
                   ),
                 ),
                 SizedBox(height: 50),
@@ -54,6 +55,7 @@ class HumidityInfo extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 27,
                     fontWeight: FontWeight.bold,
+                    color: BrandColors.mainText,
                   ),
                 ),
                 SizedBox(height: 42),
@@ -74,9 +76,13 @@ class HumidityInfo extends StatelessWidget {
                         ),
                       ),
                       TextSpan(
-                        style: TextStyle(height: 1.3),
+                        style: TextStyle(
+                          height: 1.3,
+                          color: BrandColors.redViolet,
+                        ),
                         text:
                             ' — extreme humidity level. \n Use precaution for set-points \n outside of 20%-50%',
+
                       ),
                     ],
                   ),
